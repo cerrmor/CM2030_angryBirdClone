@@ -1,0 +1,32 @@
+html, body{
+    height:100%;
+    /* width:100%; */
+}
+body {
+    background-color: dimgray; 
+    padding: 0; 
+    margin: 0; 
+    display:flex;
+     /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    align-items: center;
+}
+#canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding:20px;
+}

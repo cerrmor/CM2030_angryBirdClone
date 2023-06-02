@@ -26,6 +26,7 @@ var game;
 ////////////////////////////////////////////////////////////
 function setup() {
   canvas = createCanvas(1000, 600);
+  canvas.parent('canvas');
   //initilise the countdown timer
   countDown = new Timer;
   //initilise the game mechanics
