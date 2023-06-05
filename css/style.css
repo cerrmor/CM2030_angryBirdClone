@@ -38,8 +38,8 @@ body {
 .instructions{
     position: absolute;
     display: none;
-    top: 12%;
-    left: 14.8%;
+    /* top: 12%;
+    left: 14.8%; */
     background-color: lightgray;
     padding:20px;
 }
