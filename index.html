@@ -16,15 +16,34 @@
   </head>
   <body>
     <div class="container">
-      <div id="canvas"></div>
-      <div id="instructions">
-        <h1>Instructions</h1>
-        <p>Knock all the blocks off the screen before the timer get to zero</p>
-        <p>Click and drag the red ball let go to fire</p>
-        <p><strong>R</strong> button resets the red ball</p>
-        <p><strong>B</strong> button adds individual balls</p>
-        <p>arrows: <strong>Left, Right</strong> adds speed to the propeller</p>
-        <p>All ball objects and cubes can be clicked and moved with the mouse</p>
+      <div id="canvas">
+        <div class="showInstructions"><p>Hover to show instructions</p></div>
+        <div class="instructions">
+          <h1>Instructions</h1>
+          <ol>
+            <li>Knock all the blocks off the screen before the timer get to zero</li>
+            <li>Refresh webpage to restart game</li>
+            <li>All ball objects and cubes can be clicked and moved with the mouse</li>
+            <li><h3>Bird Controls:</h3>
+              <ul>
+                <li>Click and drag the red ball, let go to fire</li>
+                <li>Click on bird and throw with mouse</li>
+                <li><h3>Spawn Birds:</h3>
+                  <ul>
+                    <li><strong>R</strong> button resets the red ball</li>
+                    <li><strong>B</strong> button spawns balls at mouse location</li>
+                  </ul></li>
+              </ul>
+            </li>
+            <li><h3>Propeller Controls:</h3>
+              <p>Every button press adds speed in the direction pressed</p>
+              <ul>
+                <li>arrow<strong> Left</strong> spins prop <strong>Clockwise</strong></li>
+                <li>arrow<strong> Right</strong> spins prop <strong>Counterclockwise</strong></li>
+              </ul>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </body>
