@@ -104,7 +104,7 @@ function keyTyped(){
 
 
 //**********************************************************************
-//  HELPER FUNCTIONS - DO NOT WRITE BELOW THIS line
+//  HELPER FUNCTIONS
 //**********************************************************************
 
 //if mouse is released destroy slingshot constraint so that
